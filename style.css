@@ -50,4 +50,6 @@ font-weight: bold;
 button:hover {
 background-color: #444;
 }
-
+html {
+    scroll-behaviour: smooth;
+}
