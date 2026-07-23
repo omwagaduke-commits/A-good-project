@@ -1,79 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: aquamarine; 
+body {
+    background: url("https://media.istockphoto.com/id/1484902508/photo/drop-in-time-fairy-lake-tree-port-renfrew-vancouver-island-bc-canada.jpg?s=612x612&w=0&k=20&c=hozFKoydEW69RWN-me3mcXPN2q09R8JYRMLGZTVTxKU=");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0a0a0a;
+    color: #fff;
 }
-.navbar {
-    max-width: 1200px;
-    margin: auto;
+.section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 60px;
+    background: #0a0a0a
 }
-.logo {
-    color: #000;
-    font-size: 30px;
-    font-weight: 700;
+
+.gallery-section {
+    padding: 20px 60px;
+    background: #0a0a0a
 }
-.nav-links {
-    display: flex;
+
+.gallery-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    gap: 20px;
+}
+
+.gallery-card {
+    background: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: scale(1.05);
+}
+.gallery-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.nav-links a {
-    color: #000;
-    font-weight: 500;
-    transition: .3s;
-}
-.nav-links a:hover {
-    color:aqua;
-}
-body{
-    font-family:'Times New Roman', Times, serif; 
-    background-color: #fafafa; 
-    width: 100%
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid:#ccc;
-    border-radius: 4px;
-}
-button { 
-background-color: #222;
-color: #fff;
-padding: 2px 24px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-font-weight: bold;
-}
-button:hover {
-background-color: #444;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
-body{
-    font-family:'Times New Roman', Times, serif; 
-    background-color: #fafafa; 
-    width: 100%
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius 4px;
-}
-button { 
-background-color: #222;
-color: #fff;
-padding: 2px 24px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-font-weight: bold;
-}
-button:hover {
-background-color: #444;
-}
+
 
